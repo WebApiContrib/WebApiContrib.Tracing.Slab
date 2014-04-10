@@ -1,0 +1,784 @@
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Request http://localhost:59856/api/Values/35, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Request http://localhost:59856/api/Values/35] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.5580954Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Route='controller:Values,id:35', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Route='controller:Values,id:35'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.5740973Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Values, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Values] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.5761002Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers HttpControllerDescriptor CreateController, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers HttpControllerDescriptor CreateController] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.5770990Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers DefaultHttpControllerActivator Create, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers DefaultHttpControllerActivator Create] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.5780993Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers DefaultHttpControllerActivator Create WebApiTracingWithSlab.Controllers.ValuesController, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers DefaultHttpControllerActivator Create WebApiTracingWithSlab.Controllers.ValuesController] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.5810998Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers HttpControllerDescriptor CreateController WebApiTracingWithSlab.Controllers.ValuesController, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers HttpControllerDescriptor CreateController WebApiTracingWithSlab.Controllers.ValuesController] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.5810998Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers ValuesController ExecuteAsync, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers ValuesController ExecuteAsync] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.5821020Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ApiControllerActionSelector SelectAction, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ApiControllerActionSelector SelectAction] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.5841019Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ApiControllerActionSelector SelectAction Selected action 'Get(Int32 id)', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ApiControllerActionSelector SelectAction Selected action 'Get(Int32 id)'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.5981062Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.6061087Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.ModelBinding ModelBinderParameterBinding ExecuteBindingAsync Binding parameter 'id', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.ModelBinding ModelBinderParameterBinding ExecuteBindingAsync Binding parameter 'id'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.6071093Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.ModelBinding ModelBinderParameterBinding ExecuteBindingAsync Parameter 'id' bound to the value '35', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.ModelBinding ModelBinderParameterBinding ExecuteBindingAsync Parameter 'id' bound to the value '35'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.6351199Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync Model state is valid. Values: id=35, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync Model state is valid. Values: id=35] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.6361202Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync Action='Get(id=35)', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync Action='Get(id=35)'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.6371209Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Invoking action 'Get(id=35)', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Invoking action 'Get(id=35)'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.6391219Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Action returned 'value', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Action returned 'value'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.6461236Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting DefaultContentNegotiator Negotiate Type='String', formatters=[JsonMediaTypeFormatterTracer, XmlMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer], Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting DefaultContentNegotiator Negotiate Type='String', formatters=[JsonMediaTypeFormatterTracer, XmlMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer]] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.6491257Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting XmlMediaTypeFormatter GetPerRequestFormatterInstance Obtaining formatter of type 'XmlMediaTypeFormatter' for type='String', mediaType='application/xml; charset=utf-8', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting XmlMediaTypeFormatter GetPerRequestFormatterInstance Obtaining formatter of type 'XmlMediaTypeFormatter' for type='String', mediaType='application/xml; charset=utf-8'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.6601287Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting XmlMediaTypeFormatter GetPerRequestFormatterInstance Will use same 'XmlMediaTypeFormatter' formatter, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting XmlMediaTypeFormatter GetPerRequestFormatterInstance Will use same 'XmlMediaTypeFormatter' formatter] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.6601287Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting DefaultContentNegotiator Negotiate Selected formatter='XmlMediaTypeFormatter', content-type='application/xml; charset=utf-8', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting DefaultContentNegotiator Negotiate Selected formatter='XmlMediaTypeFormatter', content-type='application/xml; charset=utf-8'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.6611283Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.6631293Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers ValuesController ExecuteAsync, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers ValuesController ExecuteAsync] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.6631293Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Request Content-type='application/xml; charset=utf-8', content-length=unknown, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Request Content-type='application/xml; charset=utf-8', content-length=unknown] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.6641288Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting XmlMediaTypeFormatter WriteToStreamAsync Value='value', type='String', content-type='application/xml; charset=utf-8', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting XmlMediaTypeFormatter WriteToStreamAsync Value='value', type='String', content-type='application/xml; charset=utf-8'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.6721332Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting XmlMediaTypeFormatter WriteToStreamAsync, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting XmlMediaTypeFormatter WriteToStreamAsync] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.6751333Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers ValuesController Dispose, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers ValuesController Dispose] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.6771362Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers ValuesController Dispose, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers ValuesController Dispose] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:35:59.6771362Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Request http://localhost:59856/api/Values/35, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Request http://localhost:59856/api/Values/35] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5413085Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Route='controller:Values,id:35', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Route='controller:Values,id:35'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5413085Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Values, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Values] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5413085Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers HttpControllerDescriptor CreateController, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers HttpControllerDescriptor CreateController] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5413085Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers DefaultHttpControllerActivator Create, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers DefaultHttpControllerActivator Create] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5413085Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers DefaultHttpControllerActivator Create WebApiTracingWithSlab.Controllers.ValuesController, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers DefaultHttpControllerActivator Create WebApiTracingWithSlab.Controllers.ValuesController] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5423089Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers HttpControllerDescriptor CreateController WebApiTracingWithSlab.Controllers.ValuesController, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers HttpControllerDescriptor CreateController WebApiTracingWithSlab.Controllers.ValuesController] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5423089Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers ValuesController ExecuteAsync, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers ValuesController ExecuteAsync] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5423089Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ApiControllerActionSelector SelectAction, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ApiControllerActionSelector SelectAction] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5423089Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ApiControllerActionSelector SelectAction Selected action 'Get(Int32 id)', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ApiControllerActionSelector SelectAction Selected action 'Get(Int32 id)'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5423089Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5423089Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.ModelBinding ModelBinderParameterBinding ExecuteBindingAsync Binding parameter 'id', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.ModelBinding ModelBinderParameterBinding ExecuteBindingAsync Binding parameter 'id'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5423089Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.ModelBinding ModelBinderParameterBinding ExecuteBindingAsync Parameter 'id' bound to the value '35', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.ModelBinding ModelBinderParameterBinding ExecuteBindingAsync Parameter 'id' bound to the value '35'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5423089Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync Model state is valid. Values: id=35, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync Model state is valid. Values: id=35] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5423089Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync Action='Get(id=35)', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync Action='Get(id=35)'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5433092Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Invoking action 'Get(id=35)', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Invoking action 'Get(id=35)'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5433092Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Action returned 'value', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Action returned 'value'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5433092Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting DefaultContentNegotiator Negotiate Type='String', formatters=[JsonMediaTypeFormatterTracer, XmlMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer], Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting DefaultContentNegotiator Negotiate Type='String', formatters=[JsonMediaTypeFormatterTracer, XmlMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer]] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5433092Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting XmlMediaTypeFormatter GetPerRequestFormatterInstance Obtaining formatter of type 'XmlMediaTypeFormatter' for type='String', mediaType='application/xml; charset=utf-8', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting XmlMediaTypeFormatter GetPerRequestFormatterInstance Obtaining formatter of type 'XmlMediaTypeFormatter' for type='String', mediaType='application/xml; charset=utf-8'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5433092Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting XmlMediaTypeFormatter GetPerRequestFormatterInstance Will use same 'XmlMediaTypeFormatter' formatter, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting XmlMediaTypeFormatter GetPerRequestFormatterInstance Will use same 'XmlMediaTypeFormatter' formatter] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5433092Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting DefaultContentNegotiator Negotiate Selected formatter='XmlMediaTypeFormatter', content-type='application/xml; charset=utf-8', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting DefaultContentNegotiator Negotiate Selected formatter='XmlMediaTypeFormatter', content-type='application/xml; charset=utf-8'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5433092Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5433092Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers ValuesController ExecuteAsync, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers ValuesController ExecuteAsync] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5433092Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Request Content-type='application/xml; charset=utf-8', content-length=unknown, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Request Content-type='application/xml; charset=utf-8', content-length=unknown] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5433092Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting XmlMediaTypeFormatter WriteToStreamAsync Value='value', type='String', content-type='application/xml; charset=utf-8', Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting XmlMediaTypeFormatter WriteToStreamAsync Value='value', type='String', content-type='application/xml; charset=utf-8'] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5433092Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting XmlMediaTypeFormatter WriteToStreamAsync, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Net.Http.Formatting XmlMediaTypeFormatter WriteToStreamAsync] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5443095Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers ValuesController Dispose, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers ValuesController Dispose] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5443095Z
+
+EventId : 303, Level : Informational, Message : TraceLevel.Info  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers ValuesController Dispose, Payload : [message :  GET http://localhost:59856/api/Values/35 Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US, en; q=0.5
+Host: localhost:59856
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0
+ System.Web.Http.Controllers ValuesController Dispose] , EventName : InformationalInfo, Timestamp : 2014-04-10T10:36:03.5443095Z
+
