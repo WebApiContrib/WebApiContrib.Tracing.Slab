@@ -3,12 +3,12 @@
   <metadata>
     <id>WebApiContrib.Tracing.Slab</id>
     <title>Semantic Logging Tracing for Web API</title>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <authors>damienbod</authors>
     <owners>damienbod</owners>
-    <projectUrl>http://damienbod.wordpress.com</projectUrl>
+    <projectUrl>http://damienbod.wordpress.com/2014/04/10/web-api-tracing-with-slab-and-elasticsearch/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Slab or Semantic Logging for Web API tracing</description>
+    <description>Web API tracing using Slab or Semantic Logging</description>
 	<iconUrl>http://www.gravatar.com/avatar/61d005637f57b5c3da8ba662cf04a9d6.png</iconUrl>
 	<language>en-US</language>
 	<tags>.NET Slab Semantic Logging Web API</tags>
