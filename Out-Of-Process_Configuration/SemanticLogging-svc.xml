@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration xmlns="http://schemas.microsoft.com/practices/2013/entlib/semanticlogging/etw"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="http://schemas.microsoft.com/practices/2013/entlib/semanticlogging/etw SemanticLogging-svc.xsd">
+  <traceEventService/>
+  <sinks>
+    <elasticsearchSink instanceName="damienbod" connectionString="http://localhost:9200" name="out" index="outofprocessslab" type="webapitracing">
+      <sources>
+        <eventSource name="WebApiTracing" level="LogAlways"/>
+      </sources>
+    </elasticsearchSink>
+	<flatFileSink name="svcRuntime" fileName="webapitracing.log" >
+      <sources>
+   
+        <eventSource name="WebApiTracing" level="LogAlways"/>
+      </sources>
+      <eventTextFormatter header="----------"/>
+    </flatFileSink>
+  </sinks>
+</configuration>
