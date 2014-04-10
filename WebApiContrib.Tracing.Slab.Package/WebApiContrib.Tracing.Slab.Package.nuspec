@@ -3,7 +3,7 @@
   <metadata>
     <id>WebApiContrib.Tracing.Slab</id>
     <title>Semantic Logging Tracing for Web API</title>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <authors>damienbod</authors>
     <owners>damienbod</owners>
     <projectUrl>http://damienbod.wordpress.com</projectUrl>
@@ -14,6 +14,7 @@
 	<tags>.NET Slab Semantic Logging Web API</tags>
 	 <dependencies>
       <dependency id="EnterpriseLibrary.SemanticLogging" version="1.1.1403.1"  />
+	  <dependency id="Microsoft.AspNet.WebApi.Tracing" version="5.1.2"  />	   
    </dependencies>
   </metadata>
    <files>

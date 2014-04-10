@@ -5,3 +5,6 @@ WebApiTracingWithSlab/obj
 WebApiTracingWithSlab/WebApiTracingWithSlab.csproj.user
 WebApiContrib.Tracing.Slab/WebApiContrib.Tracing.Slab.csproj.user
 WebApiTracingWithSlab.v12.suo
+WebApiContrib.Tracing.Slab.DemoApp/bin
+WebApiContrib.Tracing.Slab.DemoApp/obj
+WebApiContrib.Tracing.Slab.DemoApp/WebApiContrib.Tracing.Slab.DemoApp.csproj.user
