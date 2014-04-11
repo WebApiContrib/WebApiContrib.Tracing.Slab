@@ -24,11 +24,8 @@ namespace WebApiContrib.Tracing.Slab.Tests
         {
             var listener = new ObservableEventListener();
             listener.EnableEvents(WebApiTracing.Log, EventLevel.LogAlways, Keywords.All);
-
             listener.LogToConsole();
             listener.LogToTestInMemorySink(_testResults);
-
-            //WebApiTracing.Log.Critical("Hello world In-Process Critical");
 
             _cts = new CancellationTokenSource();
 
@@ -38,28 +35,13 @@ namespace WebApiContrib.Tracing.Slab.Tests
             _client = new HttpMessageInvoker(server);
         }
 
-        [TearDown]
-        public void TearDownTest()
-        {
-
-        }
-
         [Test]
         public void TestTracingGet()
         {
             _testResults.Clear();
-            var _ = _client.SendAsync(new HttpRequestMessage(HttpMethod.Get, "http://example.org/test"), _cts.Token).Result;
+            var unused = _client.SendAsync(new HttpRequestMessage(HttpMethod.Get, "http://example.org/test"), _cts.Token).Result;
             Assert.IsTrue(_testResults.Any());
             Assert.IsTrue(_testResults.Any(t => t.FormattedMessage.Contains("TraceLevel.Info GET")));
-        }
-
-        [Test]
-        public void TestTracingPost()
-        {
-            _testResults.Clear();
-            var _ = _client.SendAsync(new HttpRequestMessage(HttpMethod.Post, "http://example.org/test"), _cts.Token).Result;
-            Assert.IsTrue(_testResults.Any());
-            Assert.IsTrue(_testResults.Any(t => t.FormattedMessage.Contains("TraceLevel.Info POST")));
         }
     }
 }
