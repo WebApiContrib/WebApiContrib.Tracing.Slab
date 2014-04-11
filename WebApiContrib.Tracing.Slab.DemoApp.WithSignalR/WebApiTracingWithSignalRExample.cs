@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.Diagnostics.Tracing;
 using System.Web.Http.Tracing;
 
-namespace WebApiContrib.Tracing.Slab
+namespace WebApiContrib.Tracing.Slab.DemoApp.WithSignalR
 {
     [EventSource(Name = "WebApiTracing")]
-    public class WebApiTracing : EventSource
+    public class WebApiTracingWithSignalRExample : EventSource
     {
-        private const int TraceLevelFatal = 301;
-        private const int TraceLevelError = 302;
-        private const int TraceLevelInformational = 303;
-        private const int TraceLevelLogAlways = 304;
-        private const int TraceLevelVerbose = 305;
-        private const int TraceLevelWarning = 306;
+        private const int TraceLevelFatal = 401;
+        private const int TraceLevelError = 402;
+        private const int TraceLevelInformational = 403;
+        private const int TraceLevelLogAlways = 404;
+        private const int TraceLevelVerbose = 405;
+        private const int TraceLevelWarning = 406;
 
         public static void RegisterLogger(Dictionary<TraceLevel, Action<string>> exectueLogDict)
         {
@@ -24,7 +24,7 @@ namespace WebApiContrib.Tracing.Slab
             exectueLogDict.Add(TraceLevel.Warn, Log.Warning);
         }
 
-        public static readonly WebApiTracing Log = new WebApiTracing();
+        public static readonly WebApiTracingWithSignalRExample Log = new WebApiTracingWithSignalRExample();
 
         [Event(TraceLevelFatal, Message = "TraceLevel.Fatal{0}", Level = EventLevel.Critical)]
         public void Critical(string message)
