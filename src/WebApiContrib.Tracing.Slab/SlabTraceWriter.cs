@@ -8,9 +8,21 @@ namespace WebApiContrib.Tracing.Slab
 {
     public class SlabTraceWriter : ITraceWriter
     {
+        private readonly Dictionary<TraceLevel, Action<string>> _exectueLogDict;
+
         public SlabTraceWriter()
         {
-            RegisterLogger(_exectueLogDict);
+            _exectueLogDict = new Dictionary<TraceLevel, Action<string>>();
+            WebApiTracing.RegisterLogger(_exectueLogDict);
+        }
+
+        /// <summary>
+        /// An event src can be used from your project if you require special EventId etc...
+        /// </summary>
+        /// <param name="exectueLogDict"></param>
+        public SlabTraceWriter(Dictionary<TraceLevel, Action<string>> exectueLogDict)
+        {
+            _exectueLogDict = exectueLogDict;
         }
 
         public void Trace(HttpRequestMessage request, string category, TraceLevel level, Action<TraceRecord> traceAction)
@@ -68,15 +80,8 @@ namespace WebApiContrib.Tracing.Slab
             }
         }
 
-        private readonly Dictionary<TraceLevel, Action<string>> _exectueLogDict = new Dictionary<TraceLevel, Action<string>>();
+        
  
-        public void RegisterLogger(Dictionary<TraceLevel, Action<string>> exectueLogDict)
-        {
-            exectueLogDict.Add(TraceLevel.Info, WebApiTracing.Log.Informational);
-            exectueLogDict.Add(TraceLevel.Debug, WebApiTracing.Log.Verbose);
-            exectueLogDict.Add(TraceLevel.Error, WebApiTracing.Log.Error);
-            exectueLogDict.Add(TraceLevel.Fatal, WebApiTracing.Log.Critical);
-            exectueLogDict.Add(TraceLevel.Warn, WebApiTracing.Log.Warning);
-        }
+      
     }
 }

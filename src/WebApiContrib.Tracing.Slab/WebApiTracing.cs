@@ -1,4 +1,7 @@
-﻿using System.Diagnostics.Tracing;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics.Tracing;
+using System.Web.Http.Tracing;
 
 namespace WebApiContrib.Tracing.Slab
 {
@@ -11,6 +14,15 @@ namespace WebApiContrib.Tracing.Slab
         private const int TraceLevelLogAlways = 304;
         private const int TraceLevelVerbose = 305;
         private const int TraceLevelWarning = 306;
+
+        public static void RegisterLogger(Dictionary<TraceLevel, Action<string>> exectueLogDict)
+        {
+            exectueLogDict.Add(TraceLevel.Info, WebApiTracing.Log.Informational);
+            exectueLogDict.Add(TraceLevel.Debug, WebApiTracing.Log.Verbose);
+            exectueLogDict.Add(TraceLevel.Error, WebApiTracing.Log.Error);
+            exectueLogDict.Add(TraceLevel.Fatal, WebApiTracing.Log.Critical);
+            exectueLogDict.Add(TraceLevel.Warn, WebApiTracing.Log.Warning);
+        }
 
         public static readonly WebApiTracing Log = new WebApiTracing();
 
@@ -49,5 +61,7 @@ namespace WebApiContrib.Tracing.Slab
         {
             if (IsEnabled()) WriteEvent(TraceLevelWarning, message);
         }
+
+        
     }
 }
