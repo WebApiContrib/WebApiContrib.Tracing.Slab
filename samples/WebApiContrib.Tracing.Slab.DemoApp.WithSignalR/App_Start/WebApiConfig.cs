@@ -10,8 +10,6 @@ namespace WebApiContrib.Tracing.Slab.DemoApp.WithSignalR
     {
         public static void Register(HttpConfiguration config)
         {
-            // Web API configuration and services
-
             // Web API routes
             config.MapHttpAttributeRoutes();
 
@@ -21,12 +19,11 @@ namespace WebApiContrib.Tracing.Slab.DemoApp.WithSignalR
                 defaults: new { id = RouteParameter.Optional }
             );
 
-
             // Example using an example EventSource
             var exectueLogDict = new Dictionary<TraceLevel, Action<string>>();
             WebApiTracingWithSignalRExample.RegisterLogger(exectueLogDict);
             config.EnableSystemDiagnosticsTracing();
             config.Services.Replace(typeof(ITraceWriter), new SlabTraceWriter(exectueLogDict));
-        }
+        } 
     }
 }

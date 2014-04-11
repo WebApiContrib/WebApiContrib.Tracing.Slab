@@ -18,7 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OutOfProccessConfiguration"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiContrib.Tracing.Slab.Tests", "test\WebApiContrib.Tracing.Slab.Tests\WebApiContrib.Tracing.Slab.Tests.csproj", "{B72DBB2D-8107-4004-84E6-D479F94A77F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiContrib.Tracing.Slab.DemoApp.WithSignalR", "WebApiContrib.Tracing.Slab.DemoApp.WithSignalR\WebApiContrib.Tracing.Slab.DemoApp.WithSignalR.csproj", "{023F0A84-5A5D-4644-A3CD-4977B0995B49}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiContrib.Tracing.Slab.DemoApp.WithSignalR", "samples\WebApiContrib.Tracing.Slab.DemoApp.WithSignalR\WebApiContrib.Tracing.Slab.DemoApp.WithSignalR.csproj", "{023F0A84-5A5D-4644-A3CD-4977B0995B49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
