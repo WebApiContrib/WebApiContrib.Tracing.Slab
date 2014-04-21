@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Web.Http.ExceptionHandling;
 using System.Web.Http.Tracing;
 
 namespace WebApiContrib.Tracing.Slab.DemoApp
@@ -23,6 +24,9 @@ namespace WebApiContrib.Tracing.Slab.DemoApp
 
             config.EnableSystemDiagnosticsTracing();
             config.Services.Replace(typeof(ITraceWriter), new SlabTraceWriter());
+
+            config.Services.Add(typeof(IExceptionLogger), new SlabLoggingExceptionLogger());
+            
         }
     }
 }

@@ -7,6 +7,7 @@ using System.Web.Http;
 
 namespace WebApiContrib.Tracing.Slab.DemoApp.Controllers
 {
+    [SlabLoggingFilter]
     public class ValuesController : ApiController
     {
         // GET api/values
