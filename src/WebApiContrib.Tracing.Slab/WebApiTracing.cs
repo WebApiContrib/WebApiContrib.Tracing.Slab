@@ -15,6 +15,9 @@ namespace WebApiContrib.Tracing.Slab
         private const int TraceLevelVerbose = 305;
         private const int TraceLevelWarning = 306;
 
+        private const int SlabLoggingFilterVerbose = 307;
+        private const int SlabLoggingExceptionLogger = 308;
+
         public static void RegisterLogger(Dictionary<TraceLevel, Action<string>> exectueLogDict)
         {
             exectueLogDict.Add(TraceLevel.Info, Log.Informational);
@@ -62,6 +65,16 @@ namespace WebApiContrib.Tracing.Slab
             if (IsEnabled()) WriteEvent(TraceLevelWarning, message);
         }
 
-        
+        [Event(SlabLoggingFilterVerbose, Message = "SlabLoggingFilterVerbose:{0}", Level = EventLevel.Verbose)]
+        public void SlabLoggingVerbose(string message)
+        {
+            if (IsEnabled()) WriteEvent(SlabLoggingFilterVerbose, message);
+        }
+
+        [Event(SlabLoggingExceptionLogger, Message = "Exception:{0}", Level = EventLevel.Critical)]
+        public void SlabUnhandledExceptionLogger(string message)
+        {
+            if (IsEnabled()) WriteEvent(SlabLoggingExceptionLogger, message);
+        }     
     }
 }

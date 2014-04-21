@@ -61,6 +61,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SlabLoggingExceptionLogger.cs" />
+    <Compile Include="SlabLoggingFilterAttribute.cs" />
     <Compile Include="SlabTraceWriter.cs" />
     <Compile Include="WebApiTracing.cs" />
   </ItemGroup>
