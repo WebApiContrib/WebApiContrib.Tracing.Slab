@@ -10,6 +10,9 @@ WebApiContrib.Tracing.Slab
 
 [project-website]: http://damienbod.wordpress.com/2014/04/10/web-api-tracing-with-slab-and-elasticsearch/
 
+This package can be downloaded as a NuGet package:
+https://www.nuget.org/packages/WebApiContrib.Tracing.Slab/
+
 Here's how you can activate tracing with slab in your Web API config
 
 ```csharp
@@ -18,10 +21,9 @@ Here's how you can activate tracing with slab in your Web API config
 ```
 
 Here's how you could use the Slab Action Filter for request, response logging
-  // Here you can log a resquest/response  messages.
- 
 
 ```csharp
+    // Here you can log a resquest/response  messages.
     [SlabLoggingFilterAttribute]
     public class ValuesController : ApiController
     {
