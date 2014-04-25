@@ -3,7 +3,7 @@ WebAPIContrib
 
 Community Contributions for ASP.NET Web API
 
-WebApiContrib.Formatting.Slab
+WebApiContrib.Tracing.Slab
 =============================
 
 **[Visit the project website][project-website] for more information and documentation.**
