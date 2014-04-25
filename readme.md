@@ -11,11 +11,17 @@ WebApiContrib.Tracing.Slab
 [project-website]: http://damienbod.wordpress.com/2014/04/10/web-api-tracing-with-slab-and-elasticsearch/
 
 Here's how you can activate tracing with slab in your Web API config
+
+```csharp
 	config.EnableSystemDiagnosticsTracing();
     config.Services.Replace(typeof(ITraceWriter), new SlabTraceWriter());
-			
+```
+
 Here's how you could use the Slab Action Filter for request, response logging
   // Here you can log a resquest/response  messages.
+ 
+
+```csharp
     [SlabLoggingFilterAttribute]
     public class ValuesController : ApiController
     {
@@ -25,20 +31,29 @@ Here's how you could use the Slab Action Filter for request, response logging
             return new string[] { "value1", "value2" };
         }
     }
-	
+
+```
+
 Here's how you can log all unhandled exceptions to your slab log.
 
+```csharp
     // Do this if you want to log all unhandled exceptions
     config.Services.Add(typeof(IExceptionLogger), new SlabLoggingExceptionLogger());
-	
+```
+
 Here's how you can configure your own EventSource for tracing.
+
+```csharp
 	// Example using an example EventSource
     var exectueLogDict = new Dictionary<TraceLevel, Action<string>>();
     WebApiTracingCustom.RegisterLogger(exectueLogDict);
     config.EnableSystemDiagnosticsTracing();
     config.Services.Replace(typeof(ITraceWriter), new SlabTraceWriter(exectueLogDict));
-	
+```
+
 and the EventSource
+
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.Tracing;
@@ -123,3 +138,5 @@ namespace WebApiContrib.Tracing.Slab.Demo
         }
     }
 }
+
+```
