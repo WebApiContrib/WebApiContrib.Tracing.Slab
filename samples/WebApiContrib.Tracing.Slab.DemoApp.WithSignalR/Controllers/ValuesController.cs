@@ -7,6 +7,8 @@ using System.Web.Http;
 
 namespace WebApiContrib.Tracing.Slab.DemoApp.WithSignalR.Controllers
 {
+    // Here you can log a resquest/response  messages.
+    [SlabLoggingFilterAttribute]
     public class ValuesController : ApiController
     {
         // GET api/values

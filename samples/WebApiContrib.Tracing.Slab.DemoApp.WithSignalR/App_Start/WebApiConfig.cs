@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Web.Http.ExceptionHandling;
 using System.Web.Http.Tracing;
 
 namespace WebApiContrib.Tracing.Slab.DemoApp.WithSignalR
@@ -24,6 +25,9 @@ namespace WebApiContrib.Tracing.Slab.DemoApp.WithSignalR
             WebApiTracingWithSignalRExample.RegisterLogger(exectueLogDict);
             config.EnableSystemDiagnosticsTracing();
             config.Services.Replace(typeof(ITraceWriter), new SlabTraceWriter(exectueLogDict));
+
+            // Do this if you want to log all unhandled exceptions
+            config.Services.Add(typeof(IExceptionLogger), new SlabLoggingExceptionLogger());
         } 
     }
 }
