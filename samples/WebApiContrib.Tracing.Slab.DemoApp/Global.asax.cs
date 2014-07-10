@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Tracing;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using Microsoft.Practices.EnterpriseLibrary.SemanticLogging;
 
 namespace WebApiContrib.Tracing.Slab.DemoApp
 {
@@ -13,6 +15,10 @@ namespace WebApiContrib.Tracing.Slab.DemoApp
 	{
 		protected void Application_Start()
 		{
+			var listener = new ObservableEventListener();
+			listener.EnableEvents(WebApiTracing.Log, EventLevel.LogAlways, Keywords.All);
+			listener.LogToFlatFile("test.log");
+
 			AreaRegistration.RegisterAllAreas();
 			GlobalConfiguration.Configure(WebApiConfig.Register);
 			FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
