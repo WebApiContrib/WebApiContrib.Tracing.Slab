@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>WebApiContrib.Tracing.Slab</id>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
     <title>Semantic Logging Tracing for Web API</title>
     <authors>WebApiContrib Contributors</authors>
     <owners>damienbod</owners>
@@ -14,7 +14,7 @@
     <tags>webapi webapicontrib slab logging Semantic Logging Web API</tags>
 	<dependencies>
       <dependency id="EnterpriseLibrary.SemanticLogging" version="2.0.1406.1"  />
-	  <dependency id="Microsoft.AspNet.WebApi.Tracing" version="5.2.0"  />	   
+	  <dependency id="Microsoft.AspNet.WebApi.Tracing" version="5.2.2"  />	   
     </dependencies>
   </metadata>
 </package>
